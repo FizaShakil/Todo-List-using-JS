@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+ body{
+    text-align: center;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+h1{
+    color:  rgb(216, 63, 94);
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#inputBox{
+    width: 80vh;
+    height: 5vh;
+    margin-top: 30px;
+    outline: none;
+    padding-left: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btnAdd{
+    width: 10vh;
+    height: 5.5vh;
+    font-size: 15px;
+    background-color: rgb(223, 94, 119);
+    border: 0.5px solid white;
+    color: white;
+    cursor: pointer;
+}
+#taskHeading{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #852b4c;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.todoList{
+    width: 90vh;
+    outline: none;
+    font-size: 15px;
+    list-style: none;
+    padding: 10px 0px 10px 20px;
+    font-size: 17px;
+} 
+li{
+    height: 30px;
+    background-color:rgb(219, 215, 215);
+    padding: 6px 10px 5px 10px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li:hover{
+    background-color: #e2e2e2;
+}
+li input {
+    border: none;
+}
+.btnDiv{
+    display: inline;
+    float: right;
+    padding-right: 40px;
+}
+.liBtn {
+    padding: 5px 15px 5px 15px;
+    font-size: 13px;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid black;
+}
+.delBtn{
+    background-color:#bd3b2a ;
+    color: white;
+}
+.editBtn{
+    background-color: #941e48;
+    color: white;
+}
+.completed{
+    text-decoration: line-through;
+    color: black;
+}
+
+
